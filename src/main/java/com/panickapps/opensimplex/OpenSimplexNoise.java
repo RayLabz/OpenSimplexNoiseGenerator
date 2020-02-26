@@ -1,4 +1,4 @@
-package com.panickapps.opensimplex;
+package main.java.com.panickapps.opensimplex;
 
 public class OpenSimplexNoise {
 
