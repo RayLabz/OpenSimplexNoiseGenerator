@@ -82,7 +82,7 @@
 
     <name>opensimplex</name>
     <description>
-        An OpenSimplex number generator in Java.
+        An OpenSimplex noise generator in Java.
     </description>
     <url>http://maven.apache.org</url>
 

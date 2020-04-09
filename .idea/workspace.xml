@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbec9a5d-cce7-4070-b4e6-1fae867a7748" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenSimplexNoiseGenerator.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nkasenides/opensimplex/OpenSimplexNoise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/raylabz/opensimplex/OpenSimplexNoise.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582726914909</updated>
       <workItem from="1582726918125" duration="1004000" />
-      <workItem from="1586425407993" duration="330000" />
+      <workItem from="1586425407993" duration="410000" />
     </task>
     <servers />
   </component>
