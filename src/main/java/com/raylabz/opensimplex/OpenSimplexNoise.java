@@ -1,4 +1,4 @@
-package com.nkasenides.opensimplex;
+package com.raylabz.opensimplex;
 
 public class OpenSimplexNoise {
 
