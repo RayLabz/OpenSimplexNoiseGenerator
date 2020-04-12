@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbec9a5d-cce7-4070-b4e6-1fae867a7748" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/raylabz/opensimplex/NoiseDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/raylabz/opensimplex/OpenSimplexNoise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/raylabz/opensimplex/OpenSimplexNoise.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +48,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -66,11 +72,18 @@
       <updated>1582726914909</updated>
       <workItem from="1582726918125" duration="1004000" />
       <workItem from="1586425407993" duration="410000" />
+      <workItem from="1586684618953" duration="1470000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="721" y="362" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1586684656241">
+      <screen x="0" y="0" width="1739" height="939" />
+    </state>
+    <state x="721" y="362" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1739.939@0.0.1739.939" timestamp="1586684656241" />
   </component>
   <component name="masterDetails">
     <states>

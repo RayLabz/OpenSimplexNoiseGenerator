@@ -19,16 +19,21 @@ public class OpenSimplexNoise {
     private short[] permGradIndex3D;
     private int offsetX = 0;
     private int offsetY = 0;
-    private boolean octaveHalf = false;
-    private boolean octaveQuarter = false;
-    private boolean octaveEighth = false;
+    private NoiseDetail noiseDetail = NoiseDetail.ONE;
     private int featureSize = 24;
     private float power = 1;
 
+    /**
+     * Constructors a noise generator from the default seed (0).
+     */
     public OpenSimplexNoise() {
         this(DEFAULT_SEED);
     }
 
+    /**
+     * Constructors a noise generator from a given permutation array.
+     * @param perm The permutation array (short[]).
+     */
     public OpenSimplexNoise(short[] perm) {
         this.perm = perm;
         permGradIndex3D = new short[256];
@@ -39,9 +44,11 @@ public class OpenSimplexNoise {
         }
     }
 
-    //Initializes the class using a permutation array generated from a 64-bit seed.
-    //Generates a proper permutation (i.e. doesn't merely perform N successive pair swaps on a base array)
-    //Uses a simple 64-bit LCG.
+    /**
+     * Initializes the class using a permutation array generated from a 64-bit seed.
+     * Simple bit LCG
+     * @param seed The seed of the generator.
+     */
     public OpenSimplexNoise(long seed) {
         perm = new short[256];
         permGradIndex3D = new short[256];
@@ -62,21 +69,53 @@ public class OpenSimplexNoise {
         }
     }
 
+    /**
+     * Retrieves the generated noise for a 2D coordinate based on the set <i>featureSize</i>.
+     * @param x x-Coordinate of the cell.
+     * @param y y-Coordinate of the cell.
+     * @return Returns a double.
+     */
     public double getNoise2D(double x, double y) {
         return getNoise2D(x, y, featureSize);
     }
 
+    /**
+     * Retrieves the generated noise for a 2D coordinate based on a given <i>featureSize</i>.
+     * @param x x-Coordinate of the cell.
+     * @param y y-Coordinate of the cell.
+     * @param featureSize The featureSize of the generator.
+     * @return Returns a double.
+     */
     public double getNoise2D(double x, double y, int featureSize) {
         double value =  eval((x + offsetX) / featureSize, (y + offsetY) / featureSize, 0.0);
         double valHalf = 0;
         double valQuarter = 0;
         double valEighth = 0;
-        if (octaveHalf) valHalf = 0.5 * eval((x + offsetX) / (featureSize / 2F), (y + offsetY) / (featureSize / 2F), 0.0);
-        if (octaveQuarter) valQuarter = 0.25 * eval((x + offsetX) / (featureSize / 4F), (y + offsetY) / (featureSize / 4F), 0.0);
-        if (octaveEighth) valEighth = 0.125 * eval((x + offsetX) / (featureSize / 8F), (y + offsetY) / (featureSize / 8F), 0.0);
+        switch (noiseDetail) {
+            case HALF:
+                valHalf = 0.5 * eval((x + offsetX) / (featureSize / 2F), (y + offsetY) / (featureSize / 2F), 0.0);
+                break;
+            case QUARTER:
+                valHalf = 0.5 * eval((x + offsetX) / (featureSize / 2F), (y + offsetY) / (featureSize / 2F), 0.0);
+                valQuarter = 0.25 * eval((x + offsetX) / (featureSize / 4F), (y + offsetY) / (featureSize / 4F), 0.0);
+                break;
+            case EIGHTH:
+                valHalf = 0.5 * eval((x + offsetX) / (featureSize / 2F), (y + offsetY) / (featureSize / 2F), 0.0);
+                valQuarter = 0.25 * eval((x + offsetX) / (featureSize / 4F), (y + offsetY) / (featureSize / 4F), 0.0);
+                valEighth = 0.125 * eval((x + offsetX) / (featureSize / 8F), (y + offsetY) / (featureSize / 8F), 0.0);
+                break;
+        }
         return Math.pow(value + valHalf + valQuarter + valEighth, power);
     }
 
+    /**
+     * Retreieves a noise array for a range of cells.
+     * @param startX The starting x-coordinate of the range.
+     * @param startY The starting y-coordinate of the range.
+     * @param endX The ending x-coordinate of the range.
+     * @param endY The ending y-coordinate of the range.
+     * @return Returns a double array.
+     */
     public double[][] getNoise2DArray(int startX, int startY, int endX, int endY) {
         if (endX <= startX) return null;
         if (endY <= startY) return null;
@@ -89,6 +128,7 @@ public class OpenSimplexNoise {
         return array;
     }
 
+    //TODO
     public int getOffsetX() {
         return offsetX;
     }
@@ -113,36 +153,20 @@ public class OpenSimplexNoise {
         this.featureSize = featureSize;
     }
 
-    public boolean isOctaveHalf() {
-        return octaveHalf;
-    }
-
-    public void setOctaveHalf(boolean octaveHalf) {
-        this.octaveHalf = octaveHalf;
-    }
-
-    public boolean isOctaveQuarter() {
-        return octaveQuarter;
-    }
-
-    public void setOctaveQuarter(boolean octaveQuarter) {
-        this.octaveQuarter = octaveQuarter;
-    }
-
-    public boolean isOctaveEighth() {
-        return octaveEighth;
-    }
-
-    public void setOctaveEighth(boolean octaveEighth) {
-        this.octaveEighth = octaveEighth;
-    }
-
     public float getPower() {
         return power;
     }
 
     public void setPower(float power) {
         this.power = power;
+    }
+
+    public NoiseDetail getNoiseDetail() {
+        return noiseDetail;
+    }
+
+    public void setNoiseDetail(NoiseDetail noiseDetail) {
+        this.noiseDetail = noiseDetail;
     }
 
     /*----------------------------------------------------------------------------------------------------------------*/
