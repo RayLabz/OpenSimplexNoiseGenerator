@@ -5,8 +5,6 @@ For use in Java 8+ environments.
 ### Import using Maven:
 
 
+### Download jar:
 
-
-### Download .jar:
-
-Download
+[Download](https://github.com/RayLabz/OpenSimplexNoiseGenerator/raw/master/out/artifacts/opensimplexnoisegenerator_jar/opensimplexnoisegenerator.jar)
