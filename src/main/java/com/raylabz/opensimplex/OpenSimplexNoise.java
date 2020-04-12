@@ -128,50 +128,94 @@ public class OpenSimplexNoise {
         return array;
     }
 
-    //TODO
+    /**
+     * Retrieves the x offset.
+     * @return Returns the x offset.
+     */
     public int getOffsetX() {
         return offsetX;
     }
 
+    /**
+     * Sets the x offset.
+     * @param offsetX Sets the x offset.
+     */
     public void setOffsetX(int offsetX) {
         this.offsetX = offsetX;
     }
 
+    /**
+     * Retrieves the y offset.
+     * @return Returns the y offset.
+     */
     public int getOffsetY() {
         return offsetY;
     }
 
+    /**
+     * Sets the y offset.
+     * @param offsetY Returns the y offset.
+     */
     public void setOffsetY(int offsetY) {
         this.offsetY = offsetY;
     }
 
+    /**
+     * Retrieves the feature size.
+     * @return Returns the feature size.
+     */
     public int getFeatureSize() {
         return featureSize;
     }
 
+    /**
+     * Sets the feature size.
+     * @param featureSize
+     */
     public void setFeatureSize(int featureSize) {
         this.featureSize = featureSize;
     }
 
+    /**
+     * Retrieves the power.
+     * @return Returns the power.
+     */
     public float getPower() {
         return power;
     }
 
+    /**
+     * Sets the power.
+     * @param power The power to set.
+     */
     public void setPower(float power) {
         this.power = power;
     }
 
+    /**
+     * Retrieves the noise detail.
+     * @return Returns the noise detail.
+     */
     public NoiseDetail getNoiseDetail() {
         return noiseDetail;
     }
 
+    /**
+     * Sets the noise detail.
+     * @param noiseDetail The noise detail to set.
+     */
     public void setNoiseDetail(NoiseDetail noiseDetail) {
         this.noiseDetail = noiseDetail;
     }
 
     /*----------------------------------------------------------------------------------------------------------------*/
 
-    //2D OpenSimplex Noise.
+    /**
+     * Generates 2D noise for a single 2D point.
+     * @param x The x-coordinate of the point.
+     * @param y The y-coordinate of the point.
+     * @return Returns a double.
+     */
     public double eval(double x, double y) {
 
         //Place input coordinates onto grid.
@@ -286,7 +330,13 @@ public class OpenSimplexNoise {
         return value / NORM_CONSTANT_2D;
     }
 
-    //3D OpenSimplex Noise.
+    /**
+     * Generates 3D noise for a single 3D point.
+     * @param x The x-coordinate of the point.
+     * @param y The y-coordinate of the point.
+     * @param z The z-coordinate of the point.
+     * @return Returns a double.
+     */
     public double eval(double x, double y, double z) {
 
         //Place input coordinates on simplectic honeycomb.
@@ -845,7 +895,14 @@ public class OpenSimplexNoise {
         return value / NORM_CONSTANT_3D;
     }
 
-    //4D OpenSimplex Noise.
+    /**
+     * Generates 4D noise for a single 4D point.
+     * @param x The x-coordinate of the point.
+     * @param y The y-coordinate of the point.
+     * @param z The z-coordinate of the point.
+     * @param w The w-coordinate of the point
+     * @return Returns a double.
+     */
     public double eval(double x, double y, double z, double w) {
 
         //Place input coordinates on simplectic honeycomb.
