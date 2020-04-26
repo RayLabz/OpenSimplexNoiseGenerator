@@ -1,6 +1,11 @@
 package com.raylabz.opensimplex;
 
+/**
+ * Generates Open Simplex noise.
+ */
 public class OpenSimplexNoise {
+
+    public static final Range DEFAULT_RANGE = new Range(-1, 1);
 
     private static final double STRETCH_CONSTANT_2D = -0.211324865405187;    //(1/Math.sqrt(2+1)-1)/2;
     private static final double SQUISH_CONSTANT_2D = 0.366025403784439;      //(Math.sqrt(2+1)-1)/2;
@@ -75,7 +80,7 @@ public class OpenSimplexNoise {
      * @param y y-Coordinate of the cell.
      * @return Returns a double.
      */
-    public double getNoise2D(double x, double y) {
+    public RangedValue getNoise2D(double x, double y) {
         return getNoise2D(x, y, featureSize);
     }
 
@@ -86,40 +91,40 @@ public class OpenSimplexNoise {
      * @param featureSize The featureSize of the generator.
      * @return Returns a double.
      */
-    public double getNoise2D(double x, double y, int featureSize) {
-        double value =  eval((x + offsetX) / featureSize, (y + offsetY) / featureSize, 0.0);
+    public RangedValue getNoise2D(double x, double y, int featureSize) {
+        double value =  eval((x + offsetX) / featureSize, (y + offsetY) / featureSize, 0.0).getValue();
         double valHalf = 0;
         double valQuarter = 0;
         double valEighth = 0;
         switch (noiseDetail) {
             case HALF:
-                valHalf = 0.5 * eval((x + offsetX) / (featureSize / 2F), (y + offsetY) / (featureSize / 2F), 0.0);
+                valHalf = 0.5 * eval((x + offsetX) / (featureSize / 2F), (y + offsetY) / (featureSize / 2F), 0.0).getValue();
                 break;
             case QUARTER:
-                valHalf = 0.5 * eval((x + offsetX) / (featureSize / 2F), (y + offsetY) / (featureSize / 2F), 0.0);
-                valQuarter = 0.25 * eval((x + offsetX) / (featureSize / 4F), (y + offsetY) / (featureSize / 4F), 0.0);
+                valHalf = 0.5 * eval((x + offsetX) / (featureSize / 2F), (y + offsetY) / (featureSize / 2F), 0.0).getValue();
+                valQuarter = 0.25 * eval((x + offsetX) / (featureSize / 4F), (y + offsetY) / (featureSize / 4F), 0.0).getValue();
                 break;
             case EIGHTH:
-                valHalf = 0.5 * eval((x + offsetX) / (featureSize / 2F), (y + offsetY) / (featureSize / 2F), 0.0);
-                valQuarter = 0.25 * eval((x + offsetX) / (featureSize / 4F), (y + offsetY) / (featureSize / 4F), 0.0);
-                valEighth = 0.125 * eval((x + offsetX) / (featureSize / 8F), (y + offsetY) / (featureSize / 8F), 0.0);
+                valHalf = 0.5 * eval((x + offsetX) / (featureSize / 2F), (y + offsetY) / (featureSize / 2F), 0.0).getValue();
+                valQuarter = 0.25 * eval((x + offsetX) / (featureSize / 4F), (y + offsetY) / (featureSize / 4F), 0.0).getValue();
+                valEighth = 0.125 * eval((x + offsetX) / (featureSize / 8F), (y + offsetY) / (featureSize / 8F), 0.0).getValue();
                 break;
         }
-        return Math.pow(value + valHalf + valQuarter + valEighth, power);
+        return new RangedValue(DEFAULT_RANGE, Math.pow(value + valHalf + valQuarter + valEighth, power));
     }
 
     /**
-     * Retreieves a noise array for a range of cells.
+     * Retrieves a noise array for a range of cells.
      * @param startX The starting x-coordinate of the range.
      * @param startY The starting y-coordinate of the range.
      * @param endX The ending x-coordinate of the range.
      * @param endY The ending y-coordinate of the range.
      * @return Returns a double array.
      */
-    public double[][] getNoise2DArray(int startX, int startY, int endX, int endY) {
+    public RangedValue[][] getNoise2DArray(int startX, int startY, int endX, int endY) {
         if (endX <= startX) return null;
         if (endY <= startY) return null;
-        double[][] array = new double[endX - startX][endY - startY];
+        RangedValue[][] array = new RangedValue[endX - startX][endY - startY];
         for (int j = startY; j < endY; j++) {
             for (int i = startX; i < endX; i++) {
                 array[i][j] = getNoise2D(i, j);
@@ -216,7 +221,7 @@ public class OpenSimplexNoise {
      * @param y The y-coordinate of the point.
      * @return Returns a double.
      */
-    public double eval(double x, double y) {
+    public RangedValue eval(double x, double y) {
 
         //Place input coordinates onto grid.
         double stretchOffset = (x + y) * STRETCH_CONSTANT_2D;
@@ -327,7 +332,7 @@ public class OpenSimplexNoise {
             value += attn_ext * attn_ext * extrapolate(xsv_ext, ysv_ext, dx_ext, dy_ext);
         }
 
-        return value / NORM_CONSTANT_2D;
+        return new RangedValue(DEFAULT_RANGE, value / NORM_CONSTANT_2D);
     }
 
     /**
@@ -337,7 +342,7 @@ public class OpenSimplexNoise {
      * @param z The z-coordinate of the point.
      * @return Returns a double.
      */
-    public double eval(double x, double y, double z) {
+    public RangedValue eval(double x, double y, double z) {
 
         //Place input coordinates on simplectic honeycomb.
         double stretchOffset = (x + y + z) * STRETCH_CONSTANT_3D;
@@ -892,7 +897,7 @@ public class OpenSimplexNoise {
             value += attn_ext1 * attn_ext1 * extrapolate(xsv_ext1, ysv_ext1, zsv_ext1, dx_ext1, dy_ext1, dz_ext1);
         }
 
-        return value / NORM_CONSTANT_3D;
+        return new RangedValue(DEFAULT_RANGE, value / NORM_CONSTANT_3D);
     }
 
     /**
@@ -903,7 +908,7 @@ public class OpenSimplexNoise {
      * @param w The w-coordinate of the point
      * @return Returns a double.
      */
-    public double eval(double x, double y, double z, double w) {
+    public RangedValue eval(double x, double y, double z, double w) {
 
         //Place input coordinates on simplectic honeycomb.
         double stretchOffset = (x + y + z + w) * STRETCH_CONSTANT_4D;
@@ -2204,7 +2209,7 @@ public class OpenSimplexNoise {
             value += attn_ext2 * attn_ext2 * extrapolate(xsv_ext2, ysv_ext2, zsv_ext2, wsv_ext2, dx_ext2, dy_ext2, dz_ext2, dw_ext2);
         }
 
-        return value / NORM_CONSTANT_4D;
+        return new RangedValue(DEFAULT_RANGE, value / NORM_CONSTANT_4D);
     }
 
     private double extrapolate(int xsb, int ysb, double dx, double dy) {
