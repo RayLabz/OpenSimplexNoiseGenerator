@@ -7,14 +7,14 @@ For use in Java 8+ environments.
 <dependency>
     <groupId>com.raylabz</groupId>
     <artifactId>opensimplex</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3/version>
 </dependency>
 ```
 
 or
 
 ```xml
-com.raylabz:opensimplex:1.0.2
+com.raylabz:opensimplex:1.0.3
 ```
 
 ### Download jar:
@@ -23,7 +23,7 @@ com.raylabz:opensimplex:1.0.2
 
 <hr/>
 
-###Updates in v1.0.2:
+###Updates in v1.0.3:
 * Added ```Range``` class to model the range of the generated values.
 * Added ```RangedValue``` class to model generated values in a specified range.
 * ```RangedValue``` objects can now be easily shifted to a different range using the ```getValue(Range range)``` method.
