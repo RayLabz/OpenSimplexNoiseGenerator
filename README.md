@@ -3,7 +3,19 @@ An OpenSimplex noise generation library in Java which supports 2D, 3D, and 4D Op
 For use in Java 8+ environments. 
 
 ### Import using Maven:
+```xml
+<dependency>
+    <groupId>com.raylabz</groupId>
+    <artifactId>opensimplex</artifactId>
+    <version>1.0.1</version>
+</dependency>
+```
 
+or
+
+```xml
+com.raylabz:opensimplex:1.0.1
+```
 
 ### Download jar:
 
