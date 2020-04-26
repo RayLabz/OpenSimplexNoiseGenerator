@@ -9,6 +9,25 @@
     <list default="true" id="dbec9a5d-cce7-4070-b4e6-1fae867a7748" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/com/raylabz/opensimplex/Range.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/raylabz/opensimplex/RangedValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/raylabz/opensimplex/NoiseDetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/com/raylabz/opensimplex/class-use/NoiseDetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/raylabz/opensimplex/Range.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/raylabz/opensimplex/RangedValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/opensimplex/1.0.1/opensimplex-1.0.1-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/opensimplex/1.0.1/opensimplex-1.0.1-javadoc.jar.asc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/opensimplex/1.0.1/opensimplex-1.0.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/opensimplex/1.0.1/opensimplex-1.0.1-sources.jar.asc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/opensimplex/1.0.1/opensimplex-1.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/opensimplex/1.0.1/opensimplex-1.0.1.jar.asc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/opensimplex/1.0.1/opensimplex-1.0.1.pom.asc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/opensimplex-1.0.1-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/opensimplex-1.0.1-javadoc.jar.asc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/opensimplex-1.0.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/opensimplex-1.0.1-sources.jar.asc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/opensimplex-1.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/opensimplex-1.0.1.jar.asc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/opensimplex-1.0.1.pom.asc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/raylabz/opensimplex/NoiseDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/raylabz/opensimplex/NoiseDetail.java" afterDir="false" />
@@ -29,8 +48,6 @@
       <change beforePath="$PROJECT_DIR$/target/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/overview-tree.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/raylabz/opensimplex/OpenSimplexNoise$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/raylabz/opensimplex/OpenSimplexNoise$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/raylabz/opensimplex/OpenSimplexNoise.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/raylabz/opensimplex/OpenSimplexNoise.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javadoc-bundle-options/package-list" beforeDir="false" afterPath="$PROJECT_DIR$/target/javadoc-bundle-options/package-list" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
@@ -42,7 +59,7 @@
       <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/opensimplex/1.0.0/opensimplex-1.0.0-sources.jar.asc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/opensimplex/1.0.0/opensimplex-1.0.0.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/opensimplex/1.0.0/opensimplex-1.0.0.jar.asc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/opensimplex/1.0.0/opensimplex-1.0.0.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/opensimplex/1.0.0/opensimplex-1.0.0.pom" beforeDir="false" afterPath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/opensimplex/1.0.1/opensimplex-1.0.1.pom" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/opensimplex/1.0.0/opensimplex-1.0.0.pom.asc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/opensimplex/maven-metadata-nexus.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/opensimplex/maven-metadata-nexus.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/opensimplex-1.0.0-javadoc.jar" beforeDir="false" />
@@ -51,7 +68,7 @@
       <change beforePath="$PROJECT_DIR$/target/opensimplex-1.0.0-sources.jar.asc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/opensimplex-1.0.0.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/opensimplex-1.0.0.jar.asc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/opensimplex-1.0.0.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/opensimplex-1.0.0.pom" beforeDir="false" afterPath="$PROJECT_DIR$/target/opensimplex-1.0.1.pom" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/opensimplex-1.0.0.pom.asc" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +151,7 @@
       <workItem from="1586684618953" duration="2433000" />
       <workItem from="1586689120760" duration="697000" />
       <workItem from="1587887324044" duration="38000" />
-      <workItem from="1587888261111" duration="3021000" />
+      <workItem from="1587888261111" duration="3041000" />
     </task>
     <servers />
   </component>
@@ -154,22 +171,22 @@
       <screen x="0" y="0" width="1739" height="939" />
     </state>
     <state x="721" y="362" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1739.939@0.0.1739.939" timestamp="1586684656241" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1587892167297">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1587892241732">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1587892167297" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1587892167296">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1587892241732" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1587892241732">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1587892167296" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1587892167296">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1587892241732" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1587892241732">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1587892167296" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1587892167296">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1587892241732" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1587892241732">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1587892167296" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1587892241732" />
     <state x="571" y="177" key="VCS.ChangeListViewerDialog" timestamp="1586688587909">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
