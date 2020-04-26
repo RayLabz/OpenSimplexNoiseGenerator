@@ -221,7 +221,7 @@ public class OpenSimplexNoise {
      * @param y The y-coordinate of the point.
      * @return Returns a double.
      */
-    public RangedValue eval(double x, double y) {
+    private RangedValue eval(double x, double y) {
 
         //Place input coordinates onto grid.
         double stretchOffset = (x + y) * STRETCH_CONSTANT_2D;
@@ -342,7 +342,7 @@ public class OpenSimplexNoise {
      * @param z The z-coordinate of the point.
      * @return Returns a double.
      */
-    public RangedValue eval(double x, double y, double z) {
+    private RangedValue eval(double x, double y, double z) {
 
         //Place input coordinates on simplectic honeycomb.
         double stretchOffset = (x + y + z) * STRETCH_CONSTANT_3D;
@@ -908,7 +908,7 @@ public class OpenSimplexNoise {
      * @param w The w-coordinate of the point
      * @return Returns a double.
      */
-    public RangedValue eval(double x, double y, double z, double w) {
+    private RangedValue eval(double x, double y, double z, double w) {
 
         //Place input coordinates on simplectic honeycomb.
         double stretchOffset = (x + y + z + w) * STRETCH_CONSTANT_4D;
