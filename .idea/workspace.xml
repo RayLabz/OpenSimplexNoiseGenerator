@@ -168,22 +168,30 @@
       <screen x="0" y="0" width="1739" height="939" />
     </state>
     <state x="721" y="362" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1739.939@0.0.1739.939" timestamp="1586684656241" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1587892241732">
+    <state x="722" y="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1587892395128">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1587892241732" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1587892241732">
+    <state x="722" y="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1587892395128" />
+    <state x="739" y="277" key="FileChooserDialogImpl" timestamp="1587892360006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1587892241732" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1587892241732">
+    <state x="739" y="277" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1587892360006" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1587892395213">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1587892241732" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1587892241732">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1587892395213" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1587892395213">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1587892241732" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1587892395213" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1587892395212">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1587892395212" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1587892395213">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1587892395213" />
     <state x="571" y="177" key="VCS.ChangeListViewerDialog" timestamp="1586688587909">
       <screen x="0" y="0" width="1739" height="939" />
     </state>

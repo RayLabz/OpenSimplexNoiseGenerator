@@ -175,7 +175,7 @@ public class OpenSimplexNoise {
 
     /**
      * Sets the feature size.
-     * @param featureSize
+     * @param featureSize The feature size to set for this generator.
      */
     public void setFeatureSize(int featureSize) {
         this.featureSize = featureSize;
