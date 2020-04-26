@@ -7,49 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbec9a5d-cce7-4070-b4e6-1fae867a7748" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/raylabz/opensimplex/NoiseDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/raylabz/opensimplex/NoiseDetail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/raylabz/opensimplex/OpenSimplexNoise.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/raylabz/opensimplex/OpenSimplexNoise.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/raylabz/opensimplex/class-use/NoiseDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/raylabz/opensimplex/class-use/NoiseDetail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/raylabz/opensimplex/class-use/OpenSimplexNoise.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/raylabz/opensimplex/class-use/OpenSimplexNoise.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/raylabz/opensimplex/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/raylabz/opensimplex/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/raylabz/opensimplex/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/raylabz/opensimplex/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/raylabz/opensimplex/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/raylabz/opensimplex/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/raylabz/opensimplex/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/raylabz/opensimplex/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/constant-values.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/help-doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/index-all.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/overview-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/raylabz/opensimplex/OpenSimplexNoise$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/raylabz/opensimplex/OpenSimplexNoise$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/raylabz/opensimplex/OpenSimplexNoise.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/raylabz/opensimplex/OpenSimplexNoise.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/.index" beforeDir="false" afterPath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/opensimplex/1.0.1/opensimplex-1.0.1-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/opensimplex/1.0.1/opensimplex-1.0.1-javadoc.jar.asc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/opensimplex/1.0.1/opensimplex-1.0.1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/opensimplex/1.0.1/opensimplex-1.0.1-sources.jar.asc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/opensimplex/1.0.1/opensimplex-1.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/opensimplex/1.0.1/opensimplex-1.0.1.jar.asc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/opensimplex/1.0.1/opensimplex-1.0.1.pom" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/opensimplex/1.0.1/opensimplex-1.0.1.pom.asc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/opensimplex/maven-metadata-nexus.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/opensimplex/maven-metadata-nexus.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/opensimplex-1.0.1-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/opensimplex-1.0.1-javadoc.jar.asc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/opensimplex-1.0.1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/opensimplex-1.0.1-sources.jar.asc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/opensimplex-1.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/opensimplex-1.0.1.jar.asc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/opensimplex-1.0.1.pom" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/opensimplex-1.0.1.pom.asc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/com/raylabz/opensimplex/OpenSimplexNoise.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/com/raylabz/opensimplex/OpenSimplexNoise.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-4.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +88,7 @@
       <workItem from="1582726918125" duration="1004000" />
       <workItem from="1586425407993" duration="410000" />
       <workItem from="1586684618953" duration="3263000" />
-      <workItem from="1587929332424" duration="762000" />
+      <workItem from="1587929332424" duration="1084000" />
     </task>
     <servers />
   </component>
@@ -149,10 +108,10 @@
       <screen x="0" y="0" width="1739" height="939" />
     </state>
     <state x="721" y="362" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1739.939@0.0.1739.939" timestamp="1586684656241" />
-    <state x="722" y="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1587892395128">
+    <state x="722" y="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1587930414575">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="722" y="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1587892395128" />
+    <state x="722" y="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1587930414575" />
     <state x="739" y="277" key="FileChooserDialogImpl" timestamp="1587892360006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
