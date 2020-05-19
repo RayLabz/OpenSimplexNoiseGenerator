@@ -23,7 +23,7 @@ com.raylabz:opensimplex:1.0.3
 
 <hr/>
 
-###Updates in v1.0.3:
+### Updates in v1.0.3:
 * Added ```Range``` class to model the range of the generated values.
 * Added ```RangedValue``` class to model generated values in a specified range.
 * ```RangedValue``` objects can now be easily shifted to a different range using the ```getValue(Range range)``` method.
@@ -37,9 +37,9 @@ com.raylabz:opensimplex:1.0.3
 
 <hr/>
 
-###Usage
+### Usage
 
-Create generator without seed:
+Create generator with random seed:
 ```java
 OpenSimplexNoise noise = new OpenSimplexNoise();
 ``` 
