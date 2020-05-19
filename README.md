@@ -55,7 +55,7 @@ Generate a value for position (0,0):
 RangedValue value = noise.getNoise2D(0, 0);
 ```
 
-Get double number from ```RangedValue```:
+Get double value from ```RangedValue```:
 ```java
 double originalValue = value.getValue();
 ```
